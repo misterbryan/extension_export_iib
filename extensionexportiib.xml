@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.x" method="upgrade">
+    <name>Extension Export IIB</name>
+    <creationDate>Avril 2015</creationDate>
+    <author>Briand IDOSSOU</author>
+    <authorEmail>idossoubriand@gmail.com</authorEmail>
+    <authorUrl>http://ibrini.com</authorUrl>
+    <copyright>IDOSSOU Briand, Tous Droits Réservés</copyright>
+    <license>GNU/GPL3</license>
+    <version>1.0</version>
+    <description>Composant permettant d'exporter facilement les extensions installées sur un site Joomla</description>
+ 
+    <administration>
+        <menu>COM_EXTENSIONEXPORTIIB_MENU</menu>
+        <files folder="administrator">
+            <filename>index.html</filename>
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>extensionexportiib.php</filename>
+            <filename>controller.php</filename>
+            <folder>helpers</folder>
+            <folder>controllers</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="languages/administrator">
+            <language tag="en-GB">en-GB/en-GB.com_extensionexportiib.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_extensionexportiib.sys.ini</language>
+            <language tag="fr-FR">fr-FR/fr-FR.com_extensionexportiib.ini</language>
+            <language tag="fr-FR">fr-FR/fr-FR.com_extensionexportiib.sys.ini</language>
+        </languages>
+    </administration>
+ 
+</extension>
